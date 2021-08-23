@@ -2,8 +2,9 @@ body {
   background-color: rgb(12, 12, 29);
 }
 
-button:focus, input:focus{
-    outline: none;
+button:focus,
+input:focus {
+  outline: none;
 }
 
 .input {
@@ -28,19 +29,23 @@ button:focus, input:focus{
   padding: 0 2rem;
 }
 
+.btn__search {
+  font-size: 30px;
+}
+
 .weather {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0 0 3rem 0;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .location {
   color: whitesmoke;
   font-size: 30px;
   font-weight: 700;
-  transition: .4s
+  transition: 0.4s;
 }
 
 .weather__info {
@@ -71,7 +76,7 @@ button:focus, input:focus{
 }
 
 .cold__weather {
-  background-color: rgb(70, 122, 165);
+  background-color: rgb(46, 86, 119);
 }
 
 .error {

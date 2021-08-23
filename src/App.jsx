@@ -41,8 +41,9 @@ export default function App() {
           className="search"
           placeholder="Enter city or country"
         />
-        <button onClick={handleSearch} className="btn">
-          Get Weather
+        <button onClick={handleSearch} className="btn btn__search">
+          {/* Get Weather */}
+          <i class="fab fa-searchengin"></i>
         </button>
       </div>
 
